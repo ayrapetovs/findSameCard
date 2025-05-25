@@ -1,7 +1,9 @@
-<script setup></script>
+<script setup>
+const today = new Date()
+</script>
 
 <template>
-  <time datetime="25.05.2025">25.05.2025</time>
+  <time datetime="{{today}}">{{today}}</time>
 </template>
 
 <style scoped></style>
