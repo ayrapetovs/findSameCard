@@ -5,7 +5,7 @@ const today = ref(new Date().toLocaleDateString('ru-RU'));
 
 
 <template>
-  {{ today }}
+  <time :datetime="today">{{ today }}</time>
 </template>
 
 <style scoped>
