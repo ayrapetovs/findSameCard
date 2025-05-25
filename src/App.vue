@@ -1,11 +1,12 @@
 <script setup>
-import { ref } from 'vue'
-
-const today = ref(new Date().toLocaleDateString('ru-RU'))
+import { ref } from 'vue';
+const today = ref(new Date().toLocaleDateString('ru-RU'));
 </script>
 
+
 <template>
-  <p>Сегодня: {{ today }}</p>
+  {{ today }}
 </template>
 
-<style scoped></style>
+<style scoped>
+</style>
