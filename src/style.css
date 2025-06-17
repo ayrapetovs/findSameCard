@@ -3,4 +3,31 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --font: "Roboto", sans-serif;
+  --blue: #008BFE;
+  --light-blue: #CCE8FF;
+  --white: #fff;
+  --black: #000;
+  --red: #D00303;
+  --green: #09BB00;
+}
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  color: var(--black);
+  line-height: 100%;
+  font-size: 18px;
+  font-family: var(--font);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
 }
